@@ -28,6 +28,6 @@ stations = {'left_coast_70s': 'http://somafm.com/seventies.pls', 'celtic': 'http
 station = sys.argv[1]
 
 if station in stations:
-    return subprocess.call([vlc", stations[station]])
+    subprocess.call(["vlc", stations[station]])
 else:
-        print('There is no station called ' + station)
+    print('There is no station called ' + station)
