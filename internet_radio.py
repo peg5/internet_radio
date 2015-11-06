@@ -22,7 +22,7 @@ if len(sys.argv) < 2:
         print('Usage python: internet_radio.py [station] - listen to internet radio.')
         sys.exit()
 
-stations = {'left_coast_70s': 'http://somafm.com/seventies.pls', 'celtic': 'http://somafm.com/thistle.pls', 'klol': 'http://rock101klol.com:8000/listen.pls'}
+stations = {'left_coast_70s': 'http://somafm.com/seventies.pls', 'celtic': 'http://somafm.com/thistle.pls', 'klol': 'http://rock101klol.com:8000/listen.pls', 'jazz': 'http://1.ice1.firststreaming.com/kkjz_fm.aac'}
 
 # First command line argument is the station name.
 station = sys.argv[1]
